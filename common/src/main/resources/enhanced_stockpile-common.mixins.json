@@ -1,12 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.examplemod.mixin",
+  "package": "com.palthetaur.enhanced_stockpile.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
-    "MixinTitleScreen"
   ],
   "mixins": [
+    "MechanicalBearingBlockEntityMixin",
+    "ThresholdSwitchBlockEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

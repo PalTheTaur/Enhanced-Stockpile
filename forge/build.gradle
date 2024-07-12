@@ -71,8 +71,7 @@ processResources {
 loom {
     forge {
         mixinConfig(
-                "examplemod-common.mixins.json",
-                "examplemod.mixins.json"
+                "enhanced_stockpile-common.mixins.json",
         )
     }
 }
