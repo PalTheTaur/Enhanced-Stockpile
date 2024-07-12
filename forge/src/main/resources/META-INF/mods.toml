@@ -1,33 +1,33 @@
 modLoader = "javafml"
 loaderVersion = "[${forge_version},)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/PalTheTaur/Enhanced-Stockpile/issues"
+license = "MIT License"
 
 [[mods]]
-modId = "examplemod"
+modId = "enhanced_stockpile"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Enhanced Threshold Switch"
+authors = "PalTheTaur"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Makes threshold switches able to work with mechanical bearings
 '''
 logoFile = "icon.png"
 
-[[dependencies.examplemod]]
+[[dependencies.enhanced_stockpile]]
 modId = "forge"
 mandatory = true
 versionRange = "[${forge_version},)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.enhanced_stockpile]]
 modId = "minecraft"
 mandatory = true
 versionRange = "${minecraft_version}"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.enhanced_stockpile]]
 modId="create"
 mandatory=true
 versionRange="${create_version}"
