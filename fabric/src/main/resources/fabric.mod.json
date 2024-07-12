@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "enhanced_stockpile",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Enhanced Threshold Switch",
+  "description": "Makes threshold switches able to work with mechanical bearings",
   "authors": [
-    "Me!"
+    "PalTheTaur"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/PalTheTaur",
+    "sources": "https://github.com/PalTheTaur/Enhanced-Stockpile",
+    "issues": "https://github.com/PalTheTaur/Enhanced-Stockpile/issues"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "MIT",
+  "icon": "assets/enhanced_stockpile/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "com.palthetaur.enhanced_stockpile.fabric.EnhancedStockpileFabric"
     ]
   },
   "mixins": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
+    "enhanced_stockpile-common.mixins.json"
   ],
   "depends": {
     "minecraft": "${minecraft_version}",
