@@ -11,6 +11,6 @@ public abstract class MechanicalBearingBlockEntityMixin implements ThresholdSwit
 
     @Override
     public float getPercent() {
-        return (this.angle / 360) * 100;
+        return (Math.abs(this.angle) / 360) * 100;
     }
 }
